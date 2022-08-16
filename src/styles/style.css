@@ -1,0 +1,10 @@
+body{
+    height: 100vh;
+    font-family: "Montserrat", sans-serif;
+}
+header{
+    background-color: #4864c0;
+    height: 200px;
+    width: 1442px;
+}
+
