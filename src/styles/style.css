@@ -1,10 +1,28 @@
+/* POSICIONAMENTO */
+.flexRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 body{
     height: 100vh;
     font-family: "Montserrat", sans-serif;
 }
+
+/* HEADER */
+
 header{
     background-color: #4864c0;
-    height: 200px;
-    width: 1442px;
+    max-height: 200px;
+}
+
+.logoBemol {
+    max-width: 400px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    margin: 40px 0px 40px 140px;
 }
 
