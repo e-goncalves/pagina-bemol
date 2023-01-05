@@ -191,6 +191,7 @@ h1 {
     height: 188px;
     width: 1140px;
     margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 .sixthSection h3 {
@@ -226,3 +227,23 @@ h1 {
     border-color: #1d2f8a;
 }
 
+/* FOOTER */
+
+footer {
+    background-color: #4864c0;
+    border-radius: 45px 45px 0 0;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.imgRedes {
+    height: 96px;
+    width: 289px;
+}
+
+.imgLogos {
+    height: 102px;
+    width: 590px;
+}
