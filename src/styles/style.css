@@ -14,6 +14,8 @@
     align-items: center;
 }
 
+/* BODY */
+
 body{
     height: 100vh;
     font-family: "Montserrat", sans-serif;
@@ -44,10 +46,12 @@ h1 {
     margin-bottom: 20px;
 }
 
-/* PRIMEIRA SECAO */
+/* MAIN - PRIMEIRA SECAO */
 
 .firstSection {
-    margin-top: 30px;
+    /* inserir altura da main de 660px */
+    /* margin-top: 30px; */
+    height: 660px;
 }
 
 .firstSection p {
@@ -128,4 +132,28 @@ h1 {
     width: 1120px;
     border-radius: 70px;
     margin: auto;
+    margin-bottom: 60px;
+}
+
+.thirdSectionTitle {
+    margin: 0 auto;
+    height: 407px;
+    width: 353px;
+}
+
+.thirdSectionDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.thirdSectionDescription p {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+
+    text-align: left;
+    margin-bottom: 60px;
 }
