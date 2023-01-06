@@ -175,14 +175,91 @@ h1 {
 /* QUINTA SECAO - CALCULADORA */
 
 .fifthSection {
-    padding: 0 50px;
     max-width: 1200px;
-    width: 95%;
     margin: 50px auto;
     padding: 0 20px;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+
+#calculatorContainer, 
+#simulatorTimeBox {
+    height: 468px;
+}
+
+#calculatorContainer h3 {
+    height: 134px;
+    width: 647px;
+    font-size: 61px;
+    font-weight: 700;
+    line-height: 67px;
+    text-align: left;
+    color: #1d2f8a;
+    margin-bottom: 40px;
+}
+
+.simulatorBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.simulatorBox div {
+    height: 80px;
+}
+
+#inputValue {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+/* verificar */
+/* .valorInputSpan {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+} */
+
+#inputValue input {
+    height: 60px;
+    width: 416px;
+    border: none;
+    border-bottom: 2px solid #1d2f8a;
+    margin-bottom: 15px;
+}
+
+#inputValue span {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    color: #0a102e;
+    height: 17px;
+    width: 341px;
+    margin-bottom: 15px;
+}
+
+.containerSimulatorBox {
+    height: 307px;
+    width: 434px;
+    background-color: #1d2f8a;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#simulatorDay span {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    color: #FFFFFF;
 }
 
 /* SEXTA SECAO */
